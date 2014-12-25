@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<title>Simple Youtube Gallery Demo</title>
+
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+	<script src="gallery.js" type="text/javascript"></script>
+</head>
+
+<html>
+	<body>
+		<h1>Simple Youtube Gallery Demo</h1>
+		<div id="controls">
+			Playlist: <input type="text" id="pla" value="PLSgnD4rjTB1ZE7zz57C8anIRdcj5oWuyc"><br>
+			Max videos: <input type="text" id="max" value="6"><br>
+			Videos per row: <input type="text" id="row" value="3"><br>
+
+			<input type="button" value="Update" onClick="update()"><p></p>
+<a class="github-button" href="https://github.com/jackjamieson/simple-youtube-gallery" data-style="mega" data-count-href="/jackjamieson/simple-youtube-gallery/stargazers" data-count-api="/repos/jackjamieson/simple-youtube-gallery#stargazers_count">Star</a><br>
+			<p></p>
+		</div>
+		<div id="player"></div>
+		<p>Playlist:</p>
+		<div id="rows"></div>
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+	</body>
+
+</html>
