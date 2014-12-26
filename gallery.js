@@ -26,7 +26,7 @@ function run(){
 			var videoID = fragments[fragments.length - 2];
 			var url = videoURL + videoID;
 			var thumb = "http://img.youtube.com/vi/"+ videoID +"/mqdefault.jpg";
-			list_data += '<div class="vid"><a href="'+ "#" +'"onclick="newVid(this.title)" title="'+ url +'"><img class="thumb" alt="'+ feedTitle+'" src="'+ thumb +'"/><br>' + feedTitle + '</a></div>';
+			list_data += '<div class="vid"><a href="'+ "#player" +'"onclick="newVid(this.title)" title="'+ url +'"><img class="thumb" alt="'+ feedTitle+'" src="'+ thumb +'"/><br>' + feedTitle + '</a></div>';
 
 			//set the initial video to the first video in the playlist
 			if(limit == 0)
@@ -44,7 +44,9 @@ function run(){
 		$(list_data).appendTo("#rows");
 	});
 }
-run();
+
+run();//Start the script
+
 
 //Load the new video when the thumbnail is clicked
 function newVid(url){
