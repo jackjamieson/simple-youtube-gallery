@@ -1,24 +1,30 @@
 .thumb {
-	width:90%;
-	
+    width:220px;
 }
 
 .thumb:hover {
-	opacity: 0.8;
+    opacity: 0.8;
 }
 
 .vid {
-	display:inline-flex;
-	max-width: 241px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-self: auto;
+    vertical-align: top;
+    padding:5px;
+    width:240px;
 
 }
 
 .vid a {
-		 
-	z-index: 10;
+
+    z-index: 10;
 }
 
 body {
-	font-family: "Lucida Console", Monaco, monospace;
-	font-size:10pt;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:10pt;
 }
