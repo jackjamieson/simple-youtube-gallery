@@ -3,7 +3,7 @@ var playList = "PLSgnD4rjTB1ZE7zz57C8anIRdcj5oWuyc";//The backend of the playlis
 var LIMIT = 6;//Limit the number of videos it pulls from a playlist
 var EVERY = 3;//Create a new line every nth video
 
-//Don't need to change this
+//Don't need to change this or anything below unless you know what you are doing
 var playListURL = 'http://gdata.youtube.com/feeds/api/playlists/' + playList + '?v=2&alt=json&callback=?';
 var videoURL= 'http://www.youtube.com/embed/';//Will append videos to this link
 
@@ -45,7 +45,10 @@ function run(){
 	});
 }
 
+$(document).ready(function() {
 run();//Start the script
+});
+
 
 
 //Load the new video when the thumbnail is clicked

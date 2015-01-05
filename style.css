@@ -1,3 +1,4 @@
+/*Only the thumbnails*/
 .thumb {
     width:220px;
 }
@@ -6,6 +7,7 @@
     opacity: 0.8;
 }
 
+/*Individual blocks for each video*/
 .vid {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -21,12 +23,14 @@
 
 }
 
-.vid a {
-
-    z-index: 10;
+/*Styles for the entire Gallery*/
+#gallerySection {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:10pt;
 }
 
+/*Remove this if you are using this stylesheet in your own project*/
 body {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size:10pt;
 }

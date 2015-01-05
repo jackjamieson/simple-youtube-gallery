@@ -12,21 +12,31 @@
 
 <html>
 	<body>
+	
 		<h1>Simple Youtube Gallery Demo</h1>
 		<h3>Connects to a YouTube playlist and displays the videos in a gallery.  Some settings can be changed.</h3>
-		<div id="controls">
-			Playlist: <input type="text" id="pla" value="PLSgnD4rjTB1ZE7zz57C8anIRdcj5oWuyc"><br>
-			Max videos: <input type="text" id="max" value="6"><br>
-			Videos per row: <input type="text" id="row" value="3"><br>
+		
+		<div id="gallerySection">
+		
+			<div id="controls">
+				Playlist: <input type="text" id="pla" value="PLSgnD4rjTB1ZE7zz57C8anIRdcj5oWuyc"><br>
+				Max videos: <input type="text" id="max" value="6"><br>
+				Videos per row: <input type="text" id="row" value="3"><br>
 
-			<input type="button" value="Update" onClick="update()"><p></p>
-<a class="github-button" href="https://github.com/jackjamieson/simple-youtube-gallery" data-style="mega" data-count-href="/jackjamieson/simple-youtube-gallery/stargazers" data-count-api="/repos/jackjamieson/simple-youtube-gallery#stargazers_count">Star</a><br>
-			<p></p>
+				<input type="button" value="Update" onClick="update()"><p></p>
+	<a class="github-button" href="https://github.com/jackjamieson/simple-youtube-gallery" data-style="mega" data-count-href="/jackjamieson/simple-youtube-gallery/stargazers" data-count-api="/repos/jackjamieson/simple-youtube-gallery#stargazers_count">Star</a><br>
+				<p></p>
+			</div>
+			
+			<div id="player"></div>
+			
+			<p>Playlist:</p>
+			<div id="rows"></div>
+	
 		</div>
-		<div id="player"></div>
-		<p>Playlist:</p>
-		<div id="rows"></div>
-<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+			
+	<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+
 	</body>
 
 </html>
