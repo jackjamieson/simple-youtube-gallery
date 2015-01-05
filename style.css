@@ -12,10 +12,12 @@
     display: -moz-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
+	float: left\9;/*IE8 support, does not break every nth video though*/
     -webkit-align-self: auto;
     vertical-align: top;
     padding:5px;
     width:240px;
+
 
 }
 
