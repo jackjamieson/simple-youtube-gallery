@@ -1,7 +1,7 @@
 simple-youtube-gallery
 ======================
 
-Youtube Gallery that aims to be as simple yet functional as possible.
+Youtube Gallery that aims to be as simple yet functional as possible.  Built using jQuery.
 
 ##Features
 - Connect to a playlist
