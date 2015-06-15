@@ -70,7 +70,7 @@ function update(){
 
 	var maxelem = document.getElementById("max");
 	var rowelem = document.getElementById("row");
-	
+
 	LIMIT = maxelem.value;
 	EVERY = rowelem.value;
 
