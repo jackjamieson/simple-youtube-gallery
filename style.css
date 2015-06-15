@@ -1,3 +1,4 @@
+/*Only the thumbnails*/
 .thumb {
     width:220px;
 }
@@ -6,25 +7,30 @@
     opacity: 0.8;
 }
 
+/*Individual blocks for each video*/
 .vid {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -moz-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
+	float: left\9;/*IE8 support, does not break every nth video though*/
     -webkit-align-self: auto;
     vertical-align: top;
     padding:5px;
     width:240px;
 
+
 }
 
-.vid a {
-
-    z-index: 10;
-}
-
-body {
+/*Styles for the entire Gallery*/
+#gallerySection {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:10pt;
+}
+
+/*Remove this if you are using this stylesheet in your own project*/
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size:10pt;
 }
