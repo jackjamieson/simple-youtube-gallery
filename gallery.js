@@ -4,7 +4,7 @@ var LIMIT = 6;// Limit the number of videos it pulls from a playlist
 var EVERY = 3;// Create a new line every nth video
 
 // Don't need to change this or anything below unless you know what you are doing
-var playListURL = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId=' + playList + '&key=AIzaSyA2mvzv4KDYHKNENsDisUNMV0QLxyaX9n0';
+var playListURL = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId=' + playList + '&key=[your key here]';
 var videoURL= 'http://www.youtube.com/embed/';// Will append videos to this link
 
 function run(){
